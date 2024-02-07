@@ -1,0 +1,3 @@
+PS D:\Docker\first-order-model> python demo.py --config config/vox-adv-256.yaml --driving_video sup-mat/unknown_man_2.mp4 --source_image sup-mat/elon.png --checkpoint vox-adv-cpk.pth.tar --relative --adapt_scale
+
+docker run --gpus all -it image_animation

@@ -1,0 +1,5 @@
+docker build -t image_animation .
+
+docker run --gpus all -p 5000:5000 -it image_animation
+
+get ip with ipconfig
